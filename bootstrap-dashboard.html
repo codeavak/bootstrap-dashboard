@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link " routerLink="" routerLinkActive="router-link-active" >Home<span class="sr-only">(current)</span></a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="dashboard" routerLinkActive="router-link-active" >About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="about" routerLinkActive="router-link-active" >Dashboard</a>
+        </li>
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0"  type="submit"><i class="fa fa-search mr-2"></i>Search</button>
+      </form>
+    </div>
+  </nav>
+
+      <!--breadcrumb-->
+        <nav aria-label="breadcrumb" style="margin-bottom:-20px; font-size:small;">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">About</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+      
+          </ol>
+        </nav>
+<div class="row bg-dark">
+<div class="col-md-3">
+  <div class="row">
+    <div class="card" style="width:100%;" >
+      <div class="card-header text-center">
+        Team Leader
+      </div>
+     
+        <div class="card-body text-center">
+            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+            <h4 class="card-title">John Smith</h4>
+        </div>
+  </div>
+
+  <div class="card" style="width:100%;" >
+    <div class="card-header text-center">
+      Team Summary
+    </div>
+  <div class="card-body">
+    <div class="list-group">
+      <div class="list-group-item">No. of Team Members <span class="ml-2 badge badge-pill badge-secondary float-right">67</span></div>
+      <div class="list-group-item">Total Cost of all Projects <span class="ml-2 badge badge-pill badge-secondary float-right">$240K</span></div>
+      <div class="list-group-item">Pending Tasks <span class="ml-2 badge badge-pill badge-secondary float-right">15/90</span></div>
+      <div class="list-group-item">Upcoming Projects <span class="ml-2 badge badge-pill badge-secondary float-right">2</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="width:100%;" >
+  <div class="card-header text-center">
+    Clients
+  </div>
+<div class="card-body">
+  <div class="list-group">
+    <div class="list-group-item">Info-Morrow IT</div>
+    <div class="list-group-item">Global lizard Inc.</div>
+    <div class="list-group-item">Fantastic 7 Corp.</div>
+    <div class="list-group-item">Team Smart Co.</div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-md-6">
+ <div class="container bg-secondary p-2">
+  <div class="row ">
+
+    <div class="col-md-6">
+      
+      <div class="dropdown">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        All Projects
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Project1</a>
+        <a class="dropdown-item" href="#">Project2</a>
+        <a class="dropdown-item" href="#">Project3</a>
+      </div>
+    </div>
+  
+   
+  
+  </div>
+    <div class="col-md-6">
+      <div class="dropdown  float-right">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         2019
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+          <a class="dropdown-item" href="#">2018</a>
+          <a class="dropdown-item" href="#">2017</a>
+          <a class="dropdown-item" href="#">2016</a>
+        </div>
+      </div></div>
+    
+      </div>
+    </div>
+
+      <div class="row bg-light mt-4 ml-1 mr-1">
+
+        <div class="card" style="width:100%;" >
+          <div class="card-header text-center">
+            Project Briefing
+          </div>
+        <div class="card-body">
+          <div class="list-group">
+            <div class="list-group-item">Project Cost<span class="ml-2 float-right">$21,131,507</span></div>
+            <div class="list-group-item">Current Expenditure<span class="ml-2 float-right">$96,788</span></div>
+            <div class="list-group-item">Available Funds<span class="ml-2 float-right">$52,538</span></div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="card" style="width:100%;" >
+        <div class="card-header text-center">
+          Team Members Summary
+        </div>
+      <div class="card-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Region</th>
+              <th scope="col">Team Members Count</th>
+              <th scope="col">Temporarily Unavailable Members</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">North</th>
+              <td>20</td>
+              <td>2</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">East</th>
+              <td>10</td>
+              <td>8</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">South</th>
+              <td>15</td>
+              <td>5</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">West</th>
+              <td>8</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+
+      </div>
+
+
+
+</div>
+<div class="col-md-3 bg-light">
+  
+  <div class="row" >
+    <div class="card" style="width:100%;" >
+      <div class="card-header text-center">
+        Team Members
+      </div>
+
+      <div class="card-body">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header bg-dark" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  North
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Status</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Jack</td>
+                      <td>Available</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Joe</td>
+                      <td>Available</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Sam</td>
+                      <td>Busy</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Tom</td>
+                      <td>Busy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link  text-light collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  East
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Status</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Jack</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Joe</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Sam</td>
+                          <td>Busy</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Tom</td>
+                          <td>Busy</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-light collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  South
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Status</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Jack</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Joe</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Sam</td>
+                          <td>Busy</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Tom</td>
+                          <td>Busy</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-light collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  West
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Status</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Jack</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Joe</td>
+                          <td>Available</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Sam</td>
+                          <td>Busy</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Tom</td>
+                          <td>Busy</td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+</div>
+
+</div> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+<link rel="stylesheet" href="">
